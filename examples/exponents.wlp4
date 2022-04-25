@@ -1,0 +1,27 @@
+int wain(int x, int n) {
+    int answer = 0;
+    int y = 1;
+    if (n < 0) {
+         x = 1 / x;
+        n = n - 1;
+    }
+    else {}
+    while (n > 1) {
+        if (n % 2 == 0) {
+            x = x * x;
+            n = n / 2;
+        }
+        else {
+            y = x * y;
+            x = x * x;
+            n = (n - 1) / 2;
+        }
+    }
+    if (n == 0) {
+        answer = 1;
+    }
+    else {
+        answer = x * y;
+    }
+    return answer;
+}
