@@ -23,3 +23,9 @@ int binsearch(int *A, int n, int t) {
     }
     return answer;
 }
+
+int wain(int *a, int b) {
+    int searched = 0;
+    searched = binsearch(a, b);
+    return searched;
+}
