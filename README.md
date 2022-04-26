@@ -5,7 +5,7 @@ WLP4 is a programming lanuage that is a subset of C++. This compiler will compil
 - [WLP4 Programming Language Specification](https://student.cs.uwaterloo.ca/~cs241/wlp4/WLP4.html)
 
 # Source Files/Implementation
-If you are interested in the source code of the compiler, please send a request to sowadkhan912@gmail.com and specify the purpose. 
+If you are interested in the source code of the compiler, please send a request to sowadkhan912@gmail.com and specify the purpose. I am not able to make the code publicly available as the compiler was a school project, and future terms may do the same thing.
 
 # How to program in WLP4
 - Visit the links above to understand how WLP4 works
